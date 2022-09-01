@@ -1,0 +1,414 @@
+*{
+	margin-top: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(../Image/backimg.png) fixed cover no-repeat;
+}
+body > #main{
+	background-color: white;
+	padding-bottom: 50px;
+}
+#header
+{
+	width: 100%;
+	background-color: #F6F6F6;
+	padding: 9px 0px;
+}
+#header > #content {
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+}
+#header > #content > div{
+	display: flex;
+	font-size: 15px;
+	padding-right: 20px;
+}
+#header > #content > div >.logo > span{
+	font-size: 16px;
+}
+#banner{
+	width: 100%;
+	padding-top: 30px;
+}
+.tieuDe{
+	width: 1100px;
+	margin: 0 auto;
+}
+.dong1{
+	display: flex;
+}
+#banner > .dong1 > .logo{
+	width: 20%;
+	cursor: pointer;
+}
+#banner > .dong1 > .search{
+	display: flex;
+	width: 60%;
+	padding: 13px 60px;
+}
+#banner > .dong1 > .search > .input-text{
+	width: 85%;
+}
+#banner > .dong1 > .search > .input-text >input{
+	width: 100%;
+	height: 41px;
+	border: solid 2px #0088CC;
+	padding: 0 20px;
+}
+#banner > .dong1 > .search > .button{
+	width: 15%;
+}
+#banner > .dong1 > .search > .button > button{
+	width: 100%;
+	height: 41px;
+	border: solid 2px #0088CC;
+	background-color: #0088CC;
+	color: white;
+	cursor: pointer;
+}
+#banner > .dong1 > .login{
+	width: 20%;
+	display: flex;
+	cursor: pointer;
+}
+#banner > .dong1 > .login > div{
+	width: 33.333333333333333333%;
+	text-align: center;
+	color: #656565;
+}
+#banner > .dong1 > .login > div > .logo{
+}
+#banner > .dong1 > .login > div > .logo > span{
+	font-size: 40px;
+}
+#banner > .dong1 > .login > div > .text{
+	font-size: 14px;
+}
+.dong2{
+	margin-top: 25px;
+	height: 513px;
+	display: flex;
+}
+
+.dong2 > .LeftMenu{
+	width: 23%;
+	height: 100%;	
+}
+.dong2 > .LeftMenu > .title{
+	background-color: #0088CC;
+	height: 40px;
+	display: flex;
+	text-align: center;
+	padding: 9px 0px;
+	color: #FFF;
+}
+.dong2 > .LeftMenu > .title> .icon{
+	cursor: pointer;
+}
+.dong2 > .LeftMenu > .list > ul>  li>  .image{
+	width: 25px;
+	height: 25px;
+}
+.dong2 > .LeftMenu > .list > ul{
+	background-color: #F7F7F7;
+}
+.dong2 > .LeftMenu > .list > ul>  li>  .image > img{
+	width: 25px;
+	height: 25px;
+	padding-left: 5px;
+}
+.dong2 > .LeftMenu > .list > ul>  li{
+	display: flex;
+	height: 43px;
+	padding: 10px 0px;
+	border-bottom: solid 1px #dfdfdf;
+	position: relative;
+}
+.dong2 > .LeftMenu > .list > ul>  li:hover{
+	background-color: white;
+	color: #0008cc;
+	cursor: pointer;
+}
+.dong2 > .banner{
+	width: 62%;
+	background-color: green;
+	height: 100%;
+}
+.dong2 > .new-product{
+	width: 15%;
+	height: 433px;
+	margin-top: 40px;
+}
+.list  .sub-menu {
+	background-color: #FFF;
+	width: 200px;
+	display: none;
+	position: absolute;
+	left: 254px;
+	top: 0px;
+	color: black;
+}
+.dong2 > .LeftMenu > .list > ul>  li:hover .sub-menu{
+	display: block;
+}
+.list  .sub-menu > li{
+	list-style: none;
+	height: 43px;
+	padding: 9px 10px;
+	border-bottom: solid 1px #dfdfdf;
+}
+.list  .sub-menu > li:hover{
+	color: #0088cc;
+	cursor: pointer;
+}
+.banner > .banner-menu{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+}
+.banner > .banner-menu > ul{
+	display: flex;
+}
+.banner > .banner-menu > ul > li{
+	list-style: none;
+	padding: 6px 13px;
+	border-left: solid 1px #dbdbdb;
+	display: flex;
+	position: relative;
+}
+.banner > .banner-menu > ul > li:hover{
+	color: #0088cc;
+	cursor: pointer;
+}
+.banner > .banner-menu > ul > li > ul{
+	background-color: white;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	display: none;
+	color: black;
+}
+.banner > .banner-menu > ul > li > ul > li{
+	list-style: none;
+	padding: 5px;
+}
+.banner > .banner-menu > ul > li:hover ul{
+	display: block;
+}
+.banner > .banner-menu > ul > li > ul > li:hover{
+	color: #0088cc;
+}
+.banner-image > img{
+	width: 100%;
+	height: 473px;
+}
+.new-product > .title{
+	background-color: #0088cc;
+	height: 40px;
+	color: white;
+	text-align: center;
+	padding: 10px 0px;
+}
+.new-product > .info{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+.new-product > .info > .newProductImage{
+	padding: 10px 0px;
+}
+.new-product > .info img{
+	width: 140px;
+	height: 140px;
+}
+.new-product > .info > .name{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 0px 5px;
+}
+.new-product > .info > .price{
+	color: #0088cc;
+}
+#shipping{
+	background-color: #F6F6F6;
+	height: 110px;
+	padding: 20px 0px;
+}
+#shipping > div{
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;	
+}
+#shipping > div > div{
+	width: 25%;
+	height: 100%;
+	display: flex;
+	border-left: #dbdbdb solid 1px;
+	padding-top: 10px;
+}
+#shipping > div > div .text{
+	padding: 0px 20px;
+	padding-top: 1px;
+	font-size: 15px;
+}
+#shipping > div > div img{
+	width: 35px;
+	height: 35px;
+	margin-left: 30px;
+}
+
+.productHead{
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.productHead > .header{
+	border: #dbdbdb solid 1px;
+	height: 40px;
+	background-color: #f6f6f6;
+	display: flex;
+}
+.productHead .title{
+	width: 25%;
+	height: 100%;
+	display: flex;
+}
+.productHead .text{
+	width: 85%;
+	display: flex;
+	padding: 9px 0px;
+}
+.productHead .text > div{
+	padding: 0px 10px;
+	border-left: 1px solid #dbdbdb;
+}
+.productHead  .title > div{
+	background-color: #FF3366;
+	height: 100%;
+	padding: 7px;
+}
+
+.productHead .list .info{
+	border: #dbdbdb solid 1px;
+}
+.productHead >.list .info img{
+	width: 225px;	
+}
+.productHead >.list .info .productImage{
+	width: 100%;
+}
+.productText   div{
+	padding: 0px 8px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.productText  .price{
+	color: #0088cc;
+	cursor: pointer;
+}
+
+.productHead .list > .row{
+	display: flex;
+	cursor: pointer;
+}
+.productImage{
+	overflow: hidden;
+}
+.productImage > img:hover{
+	transform: scale(1.5);
+	transform-origin: top right;
+	transition: all 0.3s linear;
+	cursor: pointer;
+}
+.productHead  .info{
+	margin-top: 15px;
+	margin-right: 15px;
+}
+.footer-banner{
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+}
+.footer-banner div{
+	height: 100%;
+	width: 50%;
+}
+.footer-banner div img{
+	width: 100%;
+}
+.footer-banner:hover{
+	cursor: pointer;
+}
+.footer-top{
+	border-top: solid 1px #dbdbdb;
+	background-color: white;
+}
+.footer .content-banner{
+	width: 1100px;
+	height:80px;
+	margin: 0 auto;
+	display: flex;
+	padding: 10px 0px;
+}
+.footer .content-banner .img{
+	width: 25%;
+}
+.footer .content-banner .menu{
+	width: 75%;
+	padding: 20px 0px;
+}
+.footer .content-banner .menu ul{
+	display: flex;
+}
+.footer .content-banner .menu ul li{
+	list-style: none;
+	padding-right: 30px;
+}
+.footer .content-banner .menu ul li:hover{
+	color: #0088CC;
+	cursor: pointer;
+}
+.footer-row{
+	background: rgba(0,0,0,0.7);
+	height: 300px;
+}
+.footer-row > .content-banner{
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	padding: 10px 0px;
+	color: white;
+}
+.footer-row > .content-banner > div{
+	width: 25%;
+	height: 300px;
+	padding: 0px 20px;
+	position: relative;
+}
+.footer-row > .content-banner > div .img{
+	width: 100%;
+	padding: 0px 20px;
+	position: absolute;
+	bottom: 20px;
+}
+.footer-row > .content-banner > div .img img{
+	height: 50px;
+}
+.footer-row > .content-banner > div > ul li{
+	list-style: none;
+	padding: 4px 0px;
+	color: #cccccc;
+}
+.footer-row > .content-banner > div > ul li:hover{
+	color: white;
+	cursor: pointer;
+}
+.footer-row > .content-banner > div > ul span{
+	font-size: 15px;
+}
